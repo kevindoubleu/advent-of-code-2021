@@ -1,7 +1,7 @@
 package main
 
 import (
-	"advent-of-code-2021/day23/burrow"
+	"advent-of-code-2021/days/day23/burrow"
 	"advent-of-code-2021/lib"
 	"fmt"
 )

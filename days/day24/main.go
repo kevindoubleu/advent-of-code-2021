@@ -1,12 +1,11 @@
 package main
 
 import (
-	"advent-of-code-2021/day12/attempt2/cave"
+	"advent-of-code-2021/days/day24/alu"
 	"advent-of-code-2021/lib"
-	"fmt"
 )
 
-var TESTING = true
+var TESTING = false
 
 func main() {
 	var input string
@@ -17,8 +16,8 @@ func main() {
 	}
 
 	// 1
-	cs := cave.NewCaveSystem(lib.ToStrSlice(input))
-	fmt.Println(cs)
+	a := alu.NewALU(lib.ToStrSlice(input))
+	a.BiggestModelNumber()
 	
 	// 2
 

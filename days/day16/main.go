@@ -1,8 +1,9 @@
 package main
 
 import (
-	"advent-of-code-2021/day24/alu"
+	"advent-of-code-2021/days/day16/packet"
 	"advent-of-code-2021/lib"
+	"fmt"
 )
 
 var TESTING = false
@@ -16,9 +17,9 @@ func main() {
 	}
 
 	// 1
-	a := alu.NewALU(lib.ToStrSlice(input))
-	a.BiggestModelNumber()
-	
-	// 2
+	p := packet.NewPacket(input)
+	fmt.Println(p.TotalVersionNumber())
 
+	// 2
+	fmt.Println(p.Value)
 }

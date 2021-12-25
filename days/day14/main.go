@@ -1,8 +1,8 @@
 package main
 
 import (
-	"advent-of-code-2021/day14/polygrp"
-	"advent-of-code-2021/day14/polymer"
+	"advent-of-code-2021/days/day14/polygrp"
+	"advent-of-code-2021/days/day14/polymer"
 	"advent-of-code-2021/lib"
 	"fmt"
 )

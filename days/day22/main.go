@@ -1,7 +1,7 @@
 package main
 
 import (
-	"advent-of-code-2021/day16/packet"
+	"advent-of-code-2021/days/day22/core"
 	"advent-of-code-2021/lib"
 	"fmt"
 )
@@ -16,10 +16,12 @@ func main() {
 		input = lib.ReadInput()
 	}
 
+	instructions := lib.ToStrSlice(input)
 	// 1
-	p := packet.NewPacket(input)
-	fmt.Println(p.TotalVersionNumber())
-
+	c := core.NewCore()
+	c.Initialize(instructions)
+	fmt.Println(c.CountOn())
+	
 	// 2
-	fmt.Println(p.Value)
+
 }

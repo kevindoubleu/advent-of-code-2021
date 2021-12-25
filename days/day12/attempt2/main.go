@@ -1,12 +1,12 @@
 package main
 
 import (
-	"advent-of-code-2021/day25/cucumber"
+	"advent-of-code-2021/days/day12/attempt2/cave"
 	"advent-of-code-2021/lib"
 	"fmt"
 )
 
-var TESTING = false
+var TESTING = true
 
 func main() {
 	var input string
@@ -17,9 +17,9 @@ func main() {
 	}
 
 	// 1
-	c := cucumber.NewCucumber(lib.ToStrSlice(input))
-	fmt.Println(c.StepsToStuck())
+	cs := cave.NewCaveSystem(lib.ToStrSlice(input))
+	fmt.Println(cs)
 	
 	// 2
-	
+
 }

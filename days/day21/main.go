@@ -1,7 +1,7 @@
 package main
 
 import (
-	"advent-of-code-2021/day21/dirac"
+	"advent-of-code-2021/days/day21/dirac"
 	"advent-of-code-2021/lib"
 	"fmt"
 )

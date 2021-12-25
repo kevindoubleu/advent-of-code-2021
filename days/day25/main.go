@@ -1,12 +1,12 @@
 package main
 
 import (
-	"advent-of-code-2021/day18/attempt2/sfnum"
+	"advent-of-code-2021/days/day25/cucumber"
 	"advent-of-code-2021/lib"
 	"fmt"
 )
 
-var TESTING = true
+var TESTING = false
 
 func main() {
 	var input string
@@ -16,11 +16,10 @@ func main() {
 		input = lib.ReadInput()
 	}
 
-	fmt.Println(input)
 	// 1
-	n := sfnum.NewSFNumber(input)
-	fmt.Println(n)
+	c := cucumber.NewCucumber(lib.ToStrSlice(input))
+	fmt.Println(c.StepsToStuck())
 	
 	// 2
-
+	
 }

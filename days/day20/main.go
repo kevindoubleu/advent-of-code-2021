@@ -1,7 +1,7 @@
 package main
 
 import (
-	"advent-of-code-2021/day20/image"
+	"advent-of-code-2021/days/day20/image"
 	"advent-of-code-2021/lib"
 	"fmt"
 )

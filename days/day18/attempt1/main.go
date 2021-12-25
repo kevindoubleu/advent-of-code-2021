@@ -1,12 +1,12 @@
 package main
 
 import (
-	"advent-of-code-2021/day22/core"
+	"advent-of-code-2021/days/day18/attempt1/sfnum"
 	"advent-of-code-2021/lib"
 	"fmt"
 )
 
-var TESTING = false
+var TESTING = true
 
 func main() {
 	var input string
@@ -16,12 +16,10 @@ func main() {
 		input = lib.ReadInput()
 	}
 
-	instructions := lib.ToStrSlice(input)
 	// 1
-	c := core.NewCore()
-	c.Initialize(instructions)
-	fmt.Println(c.CountOn())
-	
+	n := sfnum.AddMultiple(lib.ToStrSlice(input))
+	fmt.Println(n)
+
 	// 2
 
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"advent-of-code-2021/day17/probe"
+	"advent-of-code-2021/days/day17/probe"
 	"advent-of-code-2021/lib"
 	"fmt"
 )
